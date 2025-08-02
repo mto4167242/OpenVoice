@@ -1,0 +1,31 @@
+2025-08-02 02:28:15.365 [info] [main] Log level: Info
+2025-08-02 02:28:15.365 [info] [main] Validating found git in: "git"
+2025-08-02 02:28:15.365 [info] [main] Using git "2.43.0" from "git"
+2025-08-02 02:28:15.365 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-02 02:28:15.365 [info] > git rev-parse --show-toplevel [30ms]
+2025-08-02 02:28:15.365 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-08-02 02:28:15.365 [info] [Model][openRepository] Opened repository: /home/daveyjones9672/OpenVoice
+2025-08-02 02:28:15.365 [info] > git config --get commit.template [6ms]
+2025-08-02 02:28:15.371 [info] > git rev-parse --show-toplevel [8ms]
+2025-08-02 02:28:15.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-08-02 02:28:15.379 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-02 02:28:15.380 [info] > git rev-parse --show-toplevel [4ms]
+2025-08-02 02:28:15.384 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-08-02 02:28:15.406 [info] > git rev-parse --show-toplevel [23ms]
+2025-08-02 02:28:15.466 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [68ms]
+2025-08-02 02:28:15.469 [info] > git rev-parse --show-toplevel [6ms]
+2025-08-02 02:28:15.477 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-02 02:28:15.478 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-02 02:28:21.576 [info] > git status -z -uall [6187ms] (cancelled)
+2025-08-02 02:28:21.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5635ms]
+2025-08-02 02:28:21.650 [info] > git config --get --local branch.main.vscode-merge-base [68ms]
+2025-08-02 02:28:21.661 [info] > git config --get commit.template [3499ms]
+2025-08-02 02:28:21.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-08-02 02:28:21.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-08-02 02:28:21.694 [info] > git merge-base refs/heads/main refs/remotes/origin/main [18ms]
+2025-08-02 02:28:21.715 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-02 02:28:21.719 [info] > git check-ignore -v -z --stdin [97ms]
+2025-08-02 02:28:21.720 [info] > git diff --name-status -z --diff-filter=ADMR 74a1d147b17a8c3092dd5430504bd83ef6c7eb23...refs/remotes/origin/main [17ms]
+2025-08-02 02:28:21.722 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-08-02 02:28:21.739 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-08-02 02:28:24.379 [info] > git status -z -uall [2652ms] (cancelled)

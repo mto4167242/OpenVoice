@@ -1,0 +1,39 @@
+2025-08-02 02:14:15.579 [info] [main] Log level: Info
+2025-08-02 02:14:15.580 [info] [main] Validating found git in: "git"
+2025-08-02 02:14:15.580 [info] [main] Using git "2.43.0" from "git"
+2025-08-02 02:14:15.580 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-02 02:14:15.580 [info] > git rev-parse --show-toplevel [85ms]
+2025-08-02 02:14:19.602 [info] > git rev-parse --git-dir --git-common-dir [4014ms]
+2025-08-02 02:14:19.620 [info] [Model][openRepository] Opened repository: /home/daveyjones9672/OpenVoice
+2025-08-02 02:14:19.622 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-02 02:14:20.385 [info] > git config --get commit.template [740ms]
+2025-08-02 02:14:20.860 [info] > git check-ignore -v -z --stdin [414ms]
+2025-08-02 02:14:20.895 [info] > git ls-files --stage -- run_clone.py [41ms]
+2025-08-02 02:14:20.966 [info] > git cat-file -s e07494fd2aedcfeb1f8c88a8da7e9883b49f5452 [62ms]
+2025-08-02 02:14:20.970 [info] > git show --textconv :run_clone.py [127ms]
+2025-08-02 02:14:20.990 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [163ms]
+2025-08-02 02:14:21.001 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-02 02:14:21.004 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-08-02 02:14:21.045 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-08-02 02:14:21.114 [info] > git blame --root --incremental 74a1d147b17a8c3092dd5430504bd83ef6c7eb23 -- run_clone.py [10ms]
+2025-08-02 02:14:21.114 [info] fatal: no such path run_clone.py in 74a1d147b17a8c3092dd5430504bd83ef6c7eb23
+2025-08-02 02:14:27.756 [info] > git status -z -uall [6740ms] (cancelled)
+2025-08-02 02:14:27.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3178ms]
+2025-08-02 02:14:27.960 [info] > git config --get --local branch.main.vscode-merge-base [186ms]
+2025-08-02 02:14:27.984 [info] > git config --get commit.template [310ms]
+2025-08-02 02:14:28.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [90ms]
+2025-08-02 02:14:28.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2025-08-02 02:14:28.095 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-08-02 02:14:28.122 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-02 02:14:28.139 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2025-08-02 02:14:28.178 [info] > git diff --name-status -z --diff-filter=ADMR 74a1d147b17a8c3092dd5430504bd83ef6c7eb23...refs/remotes/origin/main [71ms]
+2025-08-02 02:14:28.212 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [35ms]
+2025-08-02 02:14:28.755 [info] > git status -z -uall [602ms] (cancelled)
+2025-08-02 02:14:36.212 [info] > git show --textconv HEAD:run_clone.py [27ms]
+2025-08-02 02:14:36.214 [info] > git ls-tree -l HEAD -- run_clone.py [15ms]
+2025-08-02 02:14:36.254 [info] > git hash-object -t tree /dev/null [7ms]
+2025-08-02 02:14:36.255 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/daveyjones9672/OpenVoice/run_clone.py.git?%7B%22path%22%3A%22%2Fhome%2Fdaveyjones9672%2FOpenVoice%2Frun_clone.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-08-02 02:14:36.265 [info] > git hash-object -t tree /dev/null [35ms]
+2025-08-02 02:14:36.265 [warning] [GitFileSystemProvider][stat] File not found - git:/home/daveyjones9672/OpenVoice/run_clone.py.git?%7B%22path%22%3A%22%2Fhome%2Fdaveyjones9672%2FOpenVoice%2Frun_clone.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-08-02 02:27:46.240 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [84ms]
+2025-08-02 02:27:46.699 [info] > git check-ignore -v -z --stdin [17ms]

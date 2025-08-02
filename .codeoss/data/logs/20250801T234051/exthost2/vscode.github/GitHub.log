@@ -1,0 +1,3 @@
+2025-08-01 23:43:53.882 [info] Log level: Info
+2025-08-01 23:44:24.187 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-08-01 23:45:14.536 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for myshell-ai/OpenVoice: Error: No GitHub authentication session available.

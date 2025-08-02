@@ -1,0 +1,26 @@
+2025-08-01 23:40:51.962 [info] 
+
+
+
+
+2025-08-01 23:40:51.989 [info] Extension host agent started.
+2025-08-01 23:40:52.024 [info] Started initializing default profile extensions in extensions installation folder. file:///home/daveyjones9672/.codeoss/extensions
+2025-08-01 23:40:52.049 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/daveyjones9672/.codeoss/extensions
+2025-08-01 23:42:37.075 [info] [127.0.0.1][a7efec6d][ManagementConnection] New connection established.
+2025-08-01 23:42:37.411 [info] [127.0.0.1][22d96dff][ExtensionHostConnection] New connection established.
+2025-08-01 23:42:39.856 [info] [127.0.0.1][22d96dff][ExtensionHostConnection] <2575> Launched Extension Host Process.
+2025-08-01 23:43:48.264 [info] [127.0.0.1][a7efec6d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-08-01 23:43:49.501 [info] [127.0.0.1][68ec56b0][ManagementConnection] New connection established.
+2025-08-01 23:43:49.532 [info] [127.0.0.1][f283549a][ExtensionHostConnection] New connection established.
+2025-08-01 23:43:49.542 [info] [127.0.0.1][f283549a][ExtensionHostConnection] <3097> Launched Extension Host Process.
+2025-08-01 23:43:58.941 [info] [127.0.0.1][22d96dff][ExtensionHostConnection] <2575> Extension Host Process exited with code: 0, signal: null.
+2025-08-02 00:28:20.963 [info] [127.0.0.1][f283549a][ExtensionHostConnection] The client has reconnected.
+2025-08-02 00:28:35.912 [info] [127.0.0.1][68ec56b0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-08-02 00:29:01.314 [info] [127.0.0.1][4e704a11][ManagementConnection] New connection established.
+2025-08-02 00:29:03.058 [info] [127.0.0.1][eebea498][ExtensionHostConnection] New connection established.
+2025-08-02 00:29:03.065 [info] [127.0.0.1][eebea498][ExtensionHostConnection] <3472> Launched Extension Host Process.
+2025-08-02 00:33:07.759 [info] [127.0.0.1][4e704a11][ManagementConnection] The client has reconnected.
+2025-08-02 00:34:01.721 [info] [127.0.0.1][f283549a][ExtensionHostConnection] <3097> Extension Host Process exited with code: 0, signal: null.
+2025-08-02 00:44:47.856 [info] [127.0.0.1][4e704a11][ManagementConnection] The client has reconnected.
+2025-08-02 01:07:38.756 [info] [127.0.0.1][eebea498][ExtensionHostConnection] The client has reconnected.
+2025-08-02 01:07:44.314 [info] [127.0.0.1][4e704a11][ManagementConnection] The client has reconnected.

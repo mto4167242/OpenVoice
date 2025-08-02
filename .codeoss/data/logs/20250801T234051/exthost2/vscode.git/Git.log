@@ -1,0 +1,102 @@
+2025-08-01 23:43:53.882 [info] [main] Log level: Info
+2025-08-01 23:43:53.882 [info] [main] Validating found git in: "git"
+2025-08-01 23:43:53.882 [info] [main] Using git "2.43.0" from "git"
+2025-08-01 23:43:53.882 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-01 23:43:53.882 [info] > git rev-parse --show-toplevel [11ms]
+2025-08-01 23:43:53.882 [info] > git rev-parse --show-toplevel [3ms]
+2025-08-01 23:43:57.017 [info] > git rev-parse --show-toplevel [3118ms]
+2025-08-01 23:43:57.019 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-08-01 23:44:10.521 [info] > git rev-parse --show-toplevel [5ms]
+2025-08-01 23:44:10.550 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-08-01 23:44:10.568 [info] [Model][openRepository] Opened repository: /home/daveyjones9672/OpenVoice
+2025-08-01 23:44:10.596 [info] > git config --get commit.template [8ms]
+2025-08-01 23:44:10.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [202ms]
+2025-08-01 23:44:10.834 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-01 23:44:10.840 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-08-01 23:44:10.895 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-08-01 23:44:11.162 [info] > git check-ignore -v -z --stdin [6ms]
+2025-08-01 23:44:17.894 [info] > git status -z -uall [7036ms] (cancelled)
+2025-08-01 23:44:20.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2361ms]
+2025-08-01 23:44:20.678 [info] > git config --get --local branch.main.vscode-merge-base [80ms]
+2025-08-01 23:44:20.703 [info] > git config --get commit.template [201ms]
+2025-08-01 23:44:20.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [44ms]
+2025-08-01 23:44:20.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2025-08-01 23:44:20.789 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-01 23:44:20.790 [info] > git merge-base refs/heads/main refs/remotes/origin/main [23ms]
+2025-08-01 23:44:20.813 [info] > git rev-parse refs/remotes/origin/main [24ms]
+2025-08-01 23:44:20.904 [info] > git diff --name-status -z --diff-filter=ADMR 74a1d147b17a8c3092dd5430504bd83ef6c7eb23...refs/remotes/origin/main [94ms]
+2025-08-01 23:44:20.952 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [61ms]
+2025-08-01 23:44:22.992 [info] > git status -z -uall [2144ms] (cancelled)
+2025-08-01 23:45:05.908 [info] > git check-ignore -v -z --stdin [2ms]
+2025-08-01 23:45:14.441 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [196ms]
+2025-08-01 23:45:14.774 [info] > git check-ignore -v -z --stdin [4ms]
+2025-08-01 23:45:18.241 [info] > git check-ignore -v -z --stdin [2ms]
+2025-08-01 23:45:37.839 [info] > git check-ignore -v -z --stdin [3ms]
+2025-08-01 23:46:05.932 [info] > git check-ignore -v -z --stdin [2ms]
+2025-08-01 23:48:22.011 [info] > git add -A -- . [140762ms]
+2025-08-01 23:48:22.629 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [587ms]
+2025-08-01 23:48:22.629 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-08-01 23:48:22.640 [info] > git config --get-all user.name [2ms]
+2025-08-01 23:48:22.660 [info] > git config --get commit.template [10ms]
+2025-08-01 23:48:22.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-08-01 23:48:22.668 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-01 23:48:22.670 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-08-01 23:48:22.745 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms]
+2025-08-01 23:48:24.922 [info] > git status -z -uall [2244ms] (cancelled)
+2025-08-02 00:27:27.841 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [183ms]
+2025-08-02 00:27:28.280 [info] > git check-ignore -v -z --stdin [25ms]
+2025-08-02 00:27:37.871 [info] > git check-ignore -v -z --stdin [175ms]
+2025-08-02 00:27:38.578 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [207ms]
+2025-08-02 00:27:38.584 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-08-02 00:27:38.668 [info] > git config --get-all user.name [8ms]
+2025-08-02 00:27:38.682 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [243ms]
+2025-08-02 00:27:38.706 [info] > git config --get commit.template [25ms]
+2025-08-02 00:27:38.706 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [147ms]
+2025-08-02 00:27:38.706 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-08-02 00:27:38.737 [info] > git config --get-all user.name [18ms]
+2025-08-02 00:27:38.761 [info] > git check-ignore -v -z --stdin [59ms]
+2025-08-02 00:27:38.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2025-08-02 00:27:38.770 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-02 00:27:38.771 [info] > git config --get commit.template [11ms]
+2025-08-02 00:27:38.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-08-02 00:27:38.783 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2025-08-02 00:27:38.797 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/daveyjones9672/OpenVoice/.git/refs/remotes/origin/main'
+2025-08-02 00:27:38.799 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-08-02 00:27:38.823 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-08-02 00:27:41.498 [info] > git status -z -uall [2692ms] (cancelled)
