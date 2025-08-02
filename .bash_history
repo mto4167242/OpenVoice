@@ -202,3 +202,9 @@ git init
 git remote -v
 git remote add origin https://github.com/mto4167242/OpenVoice.git
 git remote -v
+git add .
+git commit -m "Initial commit from Cloud Shell"
+git rm --cached OpenVoice
+git add .
+ls -a OpenVoice
+rm -rf OpenVoice/.git
